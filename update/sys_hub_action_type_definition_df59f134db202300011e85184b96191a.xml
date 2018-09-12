@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation>Calculate overdue date</annotation>
+        <category/>
+        <description>Calculate overdue date</description>
+        <label_cache>[{"name":"{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].n}}","label":"step➛Script step➛n","type":"step","ref":""},{"name":"{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].ne}}","label":"step➛Script step➛ne","type":"step","ref":""},{"name":"{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].new}}","label":"step➛Script step➛new","type":"step","ref":""},{"name":"{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].new_}}","label":"step➛Script step➛new_","type":"step","ref":""},{"name":"{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].new_d}}","label":"step➛Script step➛new_d","type":"step","ref":""},{"name":"{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].new_da}}","label":"step➛Script step➛new_da","type":"step","ref":""},{"name":"{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].new_dat}}","label":"step➛Script step➛new_dat","type":"step","ref":""},{"name":"{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].new_date}}","label":"step➛Script step➛new_date","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <name>Calculate Overdue Date</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:53:15</sys_created_on>
+        <sys_id>df59f134db202300011e85184b96191a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Calculate Overdue Date</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_df59f134db202300011e85184b96191a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:59:18</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=df59f134db202300011e85184b96191a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=df59f134db202300011e85184b96191a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>df59f134db202300011e85184b96191a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:59:18</sys_created_on>
+        <sys_id>ccca3974db202300011e85184b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:59:18</sys_updated_on>
+        <value/>
+        <variable display_value="">4cca3974db202300011e85184b96191c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=df59f134db202300011e85184b96191a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>autoclosedate</field>
+        <id>df59f134db202300011e85184b96191a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:59:18</sys_created_on>
+        <sys_id>4cca3974db202300011e85184b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:59:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_df59f134db202300011e85184b96191a</table>
+        <value>{{step[b42081bc-6a41-4819-b14e-af13f6ee20de].new_date}}</value>
+    </sys_element_mapping>
+</record_update>

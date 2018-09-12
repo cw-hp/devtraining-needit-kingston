@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>A scheduled flow to check for overdue NeedIt Tasks, close the overdue tasks, update the work notes for the task with a reason, and log the automatic closure</description>
+        <label_cache>[{"name":"eccd1dab-8e38-41d4-a0de-cff2c8561c30.property_value","label":"1➛property_value","reference_display":"property_value"},{"name":"bdfce8ad-8ab3-4aa5-bce9-ca2ebbb07216.autoclosedate","label":"2➛autoclosedate","type":"glide_date","base_type":"glide_date"},{"name":"94621605-e604-411d-a67d-77def9107a16.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"b1634778-ed37-4911-8af6-8ba11214ed8c.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"6584a300-d584-4a9e-a6b2-01aefb346fbb.record","label":"4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"6584a300-d584-4a9e-a6b2-01aefb346fbb.record.number","label":"4.1➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"}]</label_cache>
+        <latest_snapshot/>
+        <name>Close Overdue Needit Tasks</name>
+        <remote_trigger_id/>
+        <show_draft_actions>true</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:49:45</sys_created_on>
+        <sys_id>d89879b0db202300011e85184b9619ea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Close Overdue Needit Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_d89879b0db202300011e85184b9619ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 08:07:18</sys_updated_on>
+    </sys_hub_flow>
+</record_update>
